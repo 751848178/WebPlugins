@@ -1,0 +1,16 @@
+﻿.radio-box{display:inline-block;margin-right:35px;padding:0 5px;height:17px;line-height:17px;overflow:hidden;cursor:default;}
+.radio-box:before{content:"";float:left;margin-right:10px;display:inline-block;width:17px;height:17px;background:url(../images/radio-box.png) no-repeat;cursor:pointer;}
+.radio-box.active:before{background-image:url(../images/radio-box-active.png);}
+.check-box{display:inline-block;margin-right:35px;padding:10px;border:1px solid #d8d8d8;height:37px;line-height:17px;overflow:hidden;cursor:default;}
+.check-box:before{content:"";float:left;margin-right:10px;display:inline-block;width:17px;height:17px;background:url(../images/check-box.png) no-repeat;cursor:pointer;}
+.check-box.active:before{background-image:url(../images/check-box-active.png);}
+
+
+
+
+
+
+
+
+
+
