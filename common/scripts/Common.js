@@ -61,7 +61,7 @@
 			var argname = pairs[i].substring(0, pos); // 参数名字
 			var value = pairs[i].substring(pos + 1); // 参数值
 			// 以键值对的形式存放到"args"对象中
-			if(args[argname]){
+			if(args[argname] || args[argname] == ""){
 				if(args[argname] instanceof Array){
 					args[argname].push(decodeURI(value));
 				}else{
